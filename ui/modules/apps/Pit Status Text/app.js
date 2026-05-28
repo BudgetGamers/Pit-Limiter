@@ -31,10 +31,17 @@ angular.module('beamng.apps')
             filter: drop-shadow(0 0 10px rgba(255, 0, 60, 0.8)) drop-shadow(0 0 20px rgba(255, 0, 60, 0.5));
             animation: pit-pulse 1s infinite alternate;
           }
+          .pit-square {
+            fill: none;
+            stroke: #ff003c;
+            stroke-width: 3;
+            filter: drop-shadow(0 0 10px rgba(255, 0, 60, 0.8));
+            animation: pit-pulse 1s infinite alternate;
+          }
           /* Inactive State */
           .pit-text-wrapper.is-inactive .pit-text-indicator {
-            fill: #666666;
-            opacity: 0.7;
+            fill: #000000;
+            opacity: 1;
           }
           @keyframes pit-pulse {
             from {
@@ -50,8 +57,8 @@ angular.module('beamng.apps')
           }
         </style>
         <svg class="pit-svg" viewBox="0 0 100 40" preserveAspectRatio="xMidYMid meet">
+          <rect x="2" y="2" width="96" height="36" class="pit-square" ng-show="state.isEnabled" />
           <text x="50%" y="50%" class="pit-text-indicator">PIT</text>
-          <line x1="18%" y1="50%" x2="82%" y2="50%" stroke="#666666" stroke-width="4" ng-show="!state.isEnabled" style="opacity: 0.7;" />
         </svg>
       </div>
     `,

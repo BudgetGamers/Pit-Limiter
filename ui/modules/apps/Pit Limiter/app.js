@@ -58,8 +58,8 @@ angular.module('beamng.apps')
           }
           
           .pit-container.active .pit-dot {
-            background: #ff3333;
-            box-shadow: 0 0 8px #ff3333;
+            background: #00e5ff;
+            box-shadow: 0 0 8px #00e5ff;
           }
           
           .pit-title {
@@ -70,7 +70,7 @@ angular.module('beamng.apps')
           }
           
           .pit-container.active .pit-title {
-            color: #ff3333;
+            color: #00e5ff;
           }
           
           .pit-header-right {
@@ -124,8 +124,8 @@ angular.module('beamng.apps')
           }
           
           .pit-container.active .pit-speed-num {
-            color: #ff3333;
-            text-shadow: 0 0 10px rgba(255, 51, 51, 0.3);
+            color: #00e5ff;
+            text-shadow: 0 0 10px rgba(0, 229, 255, 0.3);
           }
           
           .pit-speed-unit {
@@ -181,13 +181,13 @@ angular.module('beamng.apps')
           }
           
           .pit-btn-toggle.active {
-            background: rgba(255, 51, 51, 0.15);
-            border-color: rgba(255, 51, 51, 0.4);
-            color: #ff3333;
+            background: rgba(0, 229, 255, 0.15);
+            border-color: rgba(0, 229, 255, 0.4);
+            color: #00e5ff;
           }
           
           .pit-btn-toggle.active:hover {
-            background: rgba(255, 51, 51, 0.25);
+            background: rgba(0, 229, 255, 0.25);
           }
         </style>
         
