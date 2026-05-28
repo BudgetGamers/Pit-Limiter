@@ -1,0 +1,21 @@
+{
+  "domElement": "<pit-limiter></pit-limiter>",
+  "name": "Pit Limiter",
+  "types": [
+    "ui.apps.categories.vehicle_control"
+  ],
+  "description": "A pit limiter that limits vehicle speed and saves targets per-vehicle.",
+  "css": {
+    "left": "20px",
+    "height": "150px",
+    "top": "100px",
+    "width": "150px"
+  },
+  "author": "Diamondback",
+  "version": "0.2",
+  "preserveAspectRatio": false,
+  "directive": "pitLimiter",
+  "category": "Dashboard",
+  "isAuxiliary": false,
+  "interactive": "yes"
+}

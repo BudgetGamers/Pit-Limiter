@@ -1,0 +1,11 @@
+{
+    "bindings": [
+        {
+            "control": "numpad7",
+            "action": "toggle_pit_limiter"
+        }
+    ],
+    "name": "Keyboard",
+    "version": 1,
+    "devicetype": "keyboard"
+}

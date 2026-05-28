@@ -1,0 +1,21 @@
+{
+    "domElement": "<pit-status-text></pit-status-text>",
+    "name": "Pit Status Text",
+    "types": [
+        "ui.apps.categories.vehicle_control"
+    ],
+    "description": "Displays an illuminated red PIT warning when the pit limiter is engaged.",
+    "css": {
+        "left": "45%",
+        "height": "60px",
+        "top": "30px",
+        "width": "120px"
+    },
+    "author": "Mod Developer",
+    "version": "1.0",
+    "preserveAspectRatio": false,
+    "directive": "pitStatusText",
+    "category": "Dashboard",
+    "isAuxiliary": false,
+    "interactive": "yes"
+}

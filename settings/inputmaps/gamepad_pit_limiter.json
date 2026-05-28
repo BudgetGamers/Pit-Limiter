@@ -1,0 +1,11 @@
+{
+    "bindings": [
+        {
+            "control": "modifier2 btn_start",
+            "action": "toggle_pit_limiter"
+        }
+    ],
+    "name": "Gamepad",
+    "version": 1,
+    "devicetype": "xinput"
+}

@@ -1,0 +1,10 @@
+{
+  "toggle_pit_limiter": {
+    "cat": "vehicle",
+    "order": 100,
+    "ctx": "vlua",
+    "title": "Toggle Pit Limiter",
+    "desc": "Toggles the vehicle's pit limiter on or off",
+    "onDown": "if extensions.pitLimiter then extensions.pitLimiter.toggleEnabled() end"
+  }
+}
