@@ -2,6 +2,13 @@
 -- If a copy of the bCDDL was not distributed with this
 -- file, You can obtain one at http://beamng.com/bCDDL-1.1.txt
 
+-- ============================================================================
+-- MODIFICATION NOTICE (Pursuant to Section 3.3 of the bCDDL)
+-- Contributor: [BudgetGamers / Ire56]
+-- Description: Modified Cruise Control script into a Pit Lane Speed Limiter 
+--              with automatic geographic detection for various tracks.
+-- ============================================================================
+
 local M = {}
 
 M.hasReachedTargetSpeed = false
