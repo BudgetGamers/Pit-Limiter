@@ -1,6 +1,6 @@
 # BeamNG Pit Limiter Mod
 
-An automated pit lane speed limiter for BeamNG.drive based on the native cruise control codebase.
+An automated/manual pit lane speed limiter for BeamNG.drive based on the native cruise control codebase.
 
 ## Licensing
 This mod is a Modification of BeamNG's original software and is distributed under the **BeamNG Common Development and Distribution License (bCDDL) Version 1.1**. 
